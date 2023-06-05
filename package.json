@@ -1,0 +1,7 @@
+{
+  "name": "afterburner-discord-bot",
+  "version": "1.0.0",
+  "dependencies": {
+    "@discordjs/builders": "^1.6.3"
+  }
+}
