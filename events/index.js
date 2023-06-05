@@ -8,7 +8,7 @@ module.exports = function (client) {
 
     // Loop through all files, ignoring this file
     for (const file of eventFiles) {
-        if (file !== 'handler.js') {
+        if (file !== 'index.js') {
             // Import the event
             const event = require("./" + file);
 
@@ -20,6 +20,8 @@ module.exports = function (client) {
                 global.logger.debug(`Event ${eventName} triggered`);
                 event(client, ...args);
             });
+
+            global.logger.info(`Loaded event ${eventName}`);
         }
     }
 }

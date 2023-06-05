@@ -1,6 +1,11 @@
 {
   "defaultPrefix": "!",
   "mainGuildId": "1115090813823766600",
+  "welcomeChannelId": "1115093545582342174",
+  "goodbyeChannelId": "1115093546286977164",
+  "rulesChannelId": "1115093550644854804",
+  "verifyChannelId": "1115093547197141002",
+  "rolesChannelId": "1115093555493486702",
   "owners": [
     "691009964570968144"
   ],
@@ -8,7 +13,7 @@
     "success": 53866,
     "warning": 16756782,
     "error": 16330592,
-    "default": 3553599
+    "default": 14332415
   },
   "emojis": {
     "paginator": {

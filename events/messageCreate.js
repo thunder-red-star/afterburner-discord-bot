@@ -8,20 +8,6 @@ module.exports =  async function messageCreate(client, message) {
 
     // If the message is in a guild, get the guild prefix
     let prefix = global.config.defaultPrefix;
-    if (message.guild) {
-        // Get the guild prefix
-        let guild = await global.database.guild.get.by({id: message.guild.id});
-        if (guild) {
-            // Prefix?
-            prefix = guild.prefix;
-        } else {
-            // Create the guild
-            await global.database.guild.create({
-                id: message.guild.id,
-                prefix: global.config.defaultPrefix
-            });
-        }
-    }
 
     // If the message doesn't start with the prefix, ignore it
     if (!message.content.startsWith(prefix)) return;

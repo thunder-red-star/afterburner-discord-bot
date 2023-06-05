@@ -14,7 +14,7 @@ global.config = config;
 dotenv.config();
 
 const client = new Discord.Client({
-    intents: new Discord.IntentsBitField(3276541),
+    intents: new Discord.IntentsBitField(131071),
     partials: ['MESSAGE', 'CHANNEL', 'REACTION', "GUILD_MEMBER", "GUILD"],
     allowedMentions: { parse: ['users', 'roles'], repliedUser: true },
 })

@@ -448,3 +448,68 @@ TypeError: Cannot read properties of undefined (reading 'value')
 [2023-06-05 22:28:43] [ERROR] [1] Bot encountered an unhandled promise rejection
 [2023-06-05 22:29:27] [ERROR] [1] Bot encountered an unhandled promise rejection
 [2023-06-05 22:29:54] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 18:57:36] [INFO] [1] Loading message commands...
+[2023-06-05 18:57:36] [INFO] [1] Loading slash commands...
+[2023-06-05 18:57:36] [INFO] [1] Loaded slash command help
+[2023-06-05 18:57:36] [INFO] [1] Loaded slash command deploy
+[2023-06-05 18:57:36] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 18:57:36] [INFO] [1] Shard is ready
+[2023-06-05 18:57:36] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 18:57:36] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 18:59:31] [INFO] [1] Loading message commands...
+[2023-06-05 18:59:31] [INFO] [1] Loading slash commands...
+[2023-06-05 18:59:31] [INFO] [1] Loaded slash command help
+[2023-06-05 18:59:31] [INFO] [1] Loaded slash command deploy
+[2023-06-05 18:59:31] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 18:59:31] [INFO] [1] Shard is ready
+[2023-06-05 18:59:31] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 18:59:31] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 19:00:13] [INFO] Loaded event guildMemberAdd
+[2023-06-05 19:00:13] [INFO] Loaded event interactionCreate
+[2023-06-05 19:00:13] [INFO] Loaded event messageCreate
+[2023-06-05 19:00:13] [INFO] Loaded event ready
+[2023-06-05 19:00:13] [INFO] [1] Loading message commands...
+[2023-06-05 19:00:13] [INFO] [1] Loading slash commands...
+[2023-06-05 19:00:13] [INFO] [1] Loaded slash command help
+[2023-06-05 19:00:13] [INFO] [1] Loaded slash command deploy
+[2023-06-05 19:00:13] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 19:00:14] [INFO] [1] Shard is ready
+[2023-06-05 19:00:14] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 19:00:14] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 19:02:30] [INFO] Loaded event guildMemberAdd
+[2023-06-05 19:02:30] [INFO] Loaded event interactionCreate
+[2023-06-05 19:02:30] [INFO] Loaded event messageCreate
+[2023-06-05 19:02:30] [INFO] Loaded event ready
+[2023-06-05 19:02:30] [INFO] [1] Loading message commands...
+[2023-06-05 19:02:30] [INFO] [1] Loading slash commands...
+[2023-06-05 19:02:30] [INFO] [1] Loaded slash command help
+[2023-06-05 19:02:30] [INFO] [1] Loaded slash command deploy
+[2023-06-05 19:02:30] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 19:02:31] [INFO] [1] Shard is ready
+[2023-06-05 19:02:31] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 19:02:31] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 19:03:43] [INFO] Loaded event guildMemberAdd
+[2023-06-05 19:03:43] [INFO] Loaded event interactionCreate
+[2023-06-05 19:03:43] [INFO] Loaded event messageCreate
+[2023-06-05 19:03:43] [INFO] Loaded event ready
+[2023-06-05 19:03:43] [INFO] [1] Loading message commands...
+[2023-06-05 19:03:43] [INFO] [1] Loading slash commands...
+[2023-06-05 19:03:43] [INFO] [1] Loaded slash command help
+[2023-06-05 19:03:43] [INFO] [1] Loaded slash command deploy
+[2023-06-05 19:03:43] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 19:03:45] [INFO] [1] Shard is ready
+[2023-06-05 19:03:45] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 19:03:45] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 19:08:44] [INFO] Loaded event guildMemberAdd
+[2023-06-05 19:08:44] [INFO] Loaded event guildMemberRemove
+[2023-06-05 19:08:44] [INFO] Loaded event interactionCreate
+[2023-06-05 19:08:44] [INFO] Loaded event messageCreate
+[2023-06-05 19:08:44] [INFO] Loaded event ready
+[2023-06-05 19:08:44] [INFO] [1] Loading message commands...
+[2023-06-05 19:08:44] [INFO] [1] Loading slash commands...
+[2023-06-05 19:08:44] [INFO] [1] Loaded slash command help
+[2023-06-05 19:08:44] [INFO] [1] Loaded slash command deploy
+[2023-06-05 19:08:44] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 19:08:45] [INFO] [1] Shard is ready
+[2023-06-05 19:08:45] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 19:08:45] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
