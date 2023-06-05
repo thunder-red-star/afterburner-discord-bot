@@ -6,9 +6,28 @@
   "rulesChannelId": "1115093550644854804",
   "verifyChannelId": "1115093547197141002",
   "rolesChannelId": "1115093555493486702",
+  "statusChannelId": "1115422378684588164",
   "owners": [
     "691009964570968144"
   ],
+  "mcs": {
+    "main": {
+      "host": "play.afterburnermc.network",
+      "port": 25565
+    },
+    "servers": [
+      {
+        "name": "BoxPvP",
+        "host": "boxpvp.afterburnermc.network",
+        "port": 25565
+      },
+      {
+        "name": "Development Network",
+        "host": "afterburner.minecraft.pe",
+        "port": 25592
+      }
+    ]
+  },
   "colors": {
     "success": 53866,
     "warning": 16756782,

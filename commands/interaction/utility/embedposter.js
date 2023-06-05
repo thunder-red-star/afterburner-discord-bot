@@ -144,7 +144,6 @@ module.exports = {
 
 		// Post the embeds
 		for (let i = 0; i < embedsParsed.length; i++) {
-			console.log("Posting embed " + i);
 			if (imgs[i] !== null) {
 				// Make sure to use cwd
 				let att = new Discord.AttachmentBuilder(path.join(process.cwd(), imgs[i]))

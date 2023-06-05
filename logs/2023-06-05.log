@@ -513,3 +513,30 @@ TypeError: Cannot read properties of undefined (reading 'value')
 [2023-06-05 19:08:45] [INFO] [1] Shard is ready
 [2023-06-05 19:08:45] [INFO] [1] Logged in as Afterburner#4747
 [2023-06-05 19:08:45] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 19:13:49] [INFO] [1] Command embedposter by ThunderRedStar#0001 (691009964570968144) executed successfully.
+[2023-06-05 19:32:50] [INFO] Loaded event guildMemberAdd
+[2023-06-05 19:32:50] [INFO] Loaded event guildMemberRemove
+[2023-06-05 19:32:50] [INFO] Loaded event interactionCreate
+[2023-06-05 19:32:50] [INFO] Loaded event messageCreate
+[2023-06-05 19:32:50] [INFO] Loaded event ready
+[2023-06-05 19:32:50] [INFO] [1] Loading message commands...
+[2023-06-05 19:32:50] [INFO] [1] Loading slash commands...
+[2023-06-05 19:32:50] [INFO] [1] Loaded slash command help
+[2023-06-05 19:32:50] [INFO] [1] Loaded slash command deploy
+[2023-06-05 19:32:50] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 19:32:51] [INFO] [1] Shard is ready
+[2023-06-05 19:32:51] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 19:32:51] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 19:37:10] [INFO] Loaded event guildMemberAdd
+[2023-06-05 19:37:10] [INFO] Loaded event guildMemberRemove
+[2023-06-05 19:37:10] [INFO] Loaded event interactionCreate
+[2023-06-05 19:37:10] [INFO] Loaded event messageCreate
+[2023-06-05 19:37:10] [INFO] Loaded event ready
+[2023-06-05 19:37:10] [INFO] [1] Loading message commands...
+[2023-06-05 19:37:10] [INFO] [1] Loading slash commands...
+[2023-06-05 19:37:10] [INFO] [1] Loaded slash command help
+[2023-06-05 19:37:10] [INFO] [1] Loaded slash command deploy
+[2023-06-05 19:37:10] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 19:37:11] [INFO] [1] Shard is ready
+[2023-06-05 19:37:11] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 19:37:11] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
