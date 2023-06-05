@@ -2,6 +2,8 @@
   "name": "afterburner-discord-bot",
   "version": "1.0.0",
   "dependencies": {
-    "@discordjs/builders": "^1.6.3"
+    "@discordjs/builders": "^1.6.3",
+    "chalk": "^4.1.2",
+    "nodemon": "^2.0.22"
   }
 }

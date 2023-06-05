@@ -1,0 +1,450 @@
+[2023-06-05 14:23:47] [INFO] [1] Loading message commands...
+[2023-06-05 14:23:47] [INFO] [1] Loading slash commands...
+[2023-06-05 14:23:47] [INFO] [1] Loaded slash command help
+[2023-06-05 14:23:47] [INFO] [1] Loaded slash command deploy
+[2023-06-05 14:23:47] [INFO] [1] Shard is ready
+[2023-06-05 14:23:47] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 14:24:11] [INFO] [1] Loading message commands...
+[2023-06-05 14:24:11] [INFO] [1] Loading slash commands...
+[2023-06-05 14:24:11] [INFO] [1] Loaded slash command help
+[2023-06-05 14:24:11] [INFO] [1] Loaded slash command deploy
+[2023-06-05 14:24:11] [INFO] [1] Shard is ready
+[2023-06-05 14:24:11] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 14:26:37] [INFO] [1] Loading message commands...
+[2023-06-05 14:26:37] [INFO] [1] Loading slash commands...
+[2023-06-05 14:26:37] [INFO] [1] Loaded slash command help
+[2023-06-05 14:26:37] [INFO] [1] Loaded slash command deploy
+[2023-06-05 14:26:37] [ERROR] [1] Could not register application commands for guild 1115090813823766600: TypeError: Cannot read properties of null (reading 'id')
+[2023-06-05 14:26:37] [INFO] [1] Shard is ready
+[2023-06-05 14:26:37] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 14:27:38] [INFO] [1] Loading message commands...
+[2023-06-05 14:27:38] [INFO] [1] Loading slash commands...
+[2023-06-05 14:27:38] [INFO] [1] Loaded slash command help
+[2023-06-05 14:27:38] [INFO] [1] Loaded slash command deploy
+[2023-06-05 14:27:38] [ERROR] [1] Could not register application commands for guild 1115090813823766600: TypeError: Cannot read properties of null (reading 'id')
+[2023-06-05 14:27:38] [INFO] [1] Shard is ready
+[2023-06-05 14:27:38] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 14:28:12] [INFO] [1] Loading message commands...
+[2023-06-05 14:28:12] [INFO] [1] Loading slash commands...
+[2023-06-05 14:28:12] [INFO] [1] Loaded slash command help
+[2023-06-05 14:28:12] [INFO] [1] Loaded slash command deploy
+[2023-06-05 14:28:12] [ERROR] [1] Could not register application commands for guild 1115090813823766600: TypeError: Cannot read properties of null (reading 'id')
+    at Object.deployGuild (/home/thunder/projects/afterburner-discord-bot/utils/slashcommands/deploy.js:247:68)
+    at Object.<anonymous> (/home/thunder/projects/afterburner-discord-bot/bot.js:28:8)
+    at Module._compile (node:internal/modules/cjs/loader:1196:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1250:10)
+    at Module.load (node:internal/modules/cjs/loader:1074:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:909:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at node:internal/main/run_main_module:22:47
+[2023-06-05 14:28:12] [INFO] [1] Shard is ready
+[2023-06-05 14:28:12] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 14:30:06] [INFO] [1] Loading message commands...
+[2023-06-05 14:30:06] [INFO] [1] Loading slash commands...
+[2023-06-05 14:30:06] [INFO] [1] Loaded slash command help
+[2023-06-05 14:30:06] [INFO] [1] Loaded slash command deploy
+[2023-06-05 14:30:07] [INFO] [1] Shard is ready
+[2023-06-05 14:30:07] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 14:30:07] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 14:30:57] [INFO] [1] Loading message commands...
+[2023-06-05 14:30:57] [INFO] [1] Loading slash commands...
+[2023-06-05 14:30:57] [INFO] [1] Loaded slash command help
+[2023-06-05 14:30:57] [INFO] [1] Loaded slash command deploy
+[2023-06-05 14:30:57] [INFO] [1] Shard is ready
+[2023-06-05 14:30:57] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 14:30:57] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 14:31:08] [ERROR] An error occurred while executing a command.
+TypeError: Cannot read properties of undefined (reading 'guild')
+    at Object.execute (/home/thunder/projects/afterburner-discord-bot/commands/interaction/info/help.js:44:40)
+    at interactionCreate (/home/thunder/projects/afterburner-discord-bot/events/interactionCreate.js:112:27)
+    at Client.<anonymous> (/home/thunder/projects/afterburner-discord-bot/events/index.js:21:17)
+    at Client.emit (node:events:513:28)
+    at InteractionCreateAction.handle (/home/thunder/node_modules/discord.js/src/client/actions/InteractionCreate.js:81:12)
+    at Object.module.exports [as INTERACTION_CREATE] (/home/thunder/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (/home/thunder/node_modules/discord.js/src/client/websocket/WebSocketManager.js:352:31)
+    at WebSocketShard.onPacket (/home/thunder/node_modules/discord.js/src/client/websocket/WebSocketShard.js:480:22)
+    at WebSocketShard.onMessage (/home/thunder/node_modules/discord.js/src/client/websocket/WebSocketShard.js:320:10)
+    at WebSocket.onMessage (/home/thunder/node_modules/discord.js/node_modules/ws/lib/event-target.js:199:18)
+[2023-06-05 14:31:08] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 14:32:17] [INFO] [1] Loading message commands...
+[2023-06-05 14:32:17] [INFO] [1] Loading slash commands...
+[2023-06-05 14:32:17] [INFO] [1] Loaded slash command help
+[2023-06-05 14:32:17] [INFO] [1] Loaded slash command deploy
+[2023-06-05 14:32:18] [INFO] [1] Shard is ready
+[2023-06-05 14:32:18] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 14:32:18] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 14:32:25] [ERROR] An error occurred while executing a command.
+DiscordAPIError[50035]: Invalid Form Body
+components[1].components[0].label[BASE_TYPE_REQUIRED]: This field is required
+components[1].components[1].label[BASE_TYPE_REQUIRED]: This field is required
+components[1].components[3].label[BASE_TYPE_REQUIRED]: This field is required
+components[1].components[4].label[BASE_TYPE_REQUIRED]: This field is required
+    at SequentialHandler.runRequest (/home/thunder/node_modules/@discordjs/rest/dist/index.js:659:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async SequentialHandler.queueRequest (/home/thunder/node_modules/@discordjs/rest/dist/index.js:458:14)
+    at async REST.request (/home/thunder/node_modules/@discordjs/rest/dist/index.js:902:22)
+    at async InteractionWebhook.editMessage (/home/thunder/node_modules/discord.js/src/structures/Webhook.js:320:15)
+    at async ChatInputCommandInteraction.editReply (/home/thunder/node_modules/discord.js/src/structures/interfaces/InteractionResponses.js:151:21)
+    at async module.exports (/home/thunder/projects/afterburner-discord-bot/utils/design/interactionPaginator.js:118:17)
+    at async Object.execute (/home/thunder/projects/afterburner-discord-bot/commands/interaction/info/help.js:156:4)
+    at async interactionCreate (/home/thunder/projects/afterburner-discord-bot/events/interactionCreate.js:112:13)
+[2023-06-05 14:32:25] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 14:57:17] [INFO] [1] Loading message commands...
+[2023-06-05 14:57:17] [INFO] [1] Loading slash commands...
+[2023-06-05 14:57:17] [INFO] [1] Loaded slash command help
+[2023-06-05 14:57:17] [INFO] [1] Loaded slash command deploy
+[2023-06-05 14:57:17] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 14:57:18] [INFO] [1] Shard is ready
+[2023-06-05 14:57:18] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 14:57:18] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 14:59:07] [ERROR] An error occurred while executing a command.
+TypeError: Cannot read properties of undefined (reading 'replace')
+    at Object.execute (/home/thunder/projects/afterburner-discord-bot/commands/interaction/utility/embedposter.js:34:24)
+    at interactionCreate (/home/thunder/projects/afterburner-discord-bot/events/interactionCreate.js:112:27)
+    at Client.<anonymous> (/home/thunder/projects/afterburner-discord-bot/events/index.js:21:17)
+    at Client.emit (node:events:513:28)
+    at InteractionCreateAction.handle (/home/thunder/node_modules/discord.js/src/client/actions/InteractionCreate.js:81:12)
+    at Object.module.exports [as INTERACTION_CREATE] (/home/thunder/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (/home/thunder/node_modules/discord.js/src/client/websocket/WebSocketManager.js:352:31)
+    at WebSocketShard.onPacket (/home/thunder/node_modules/discord.js/src/client/websocket/WebSocketShard.js:480:22)
+    at WebSocketShard.onMessage (/home/thunder/node_modules/discord.js/src/client/websocket/WebSocketShard.js:320:10)
+    at WebSocket.onMessage (/home/thunder/node_modules/discord.js/node_modules/ws/lib/event-target.js:199:18)
+[2023-06-05 14:59:07] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 15:53:55] [INFO] [1] Loading message commands...
+[2023-06-05 15:53:55] [INFO] [1] Loading slash commands...
+[2023-06-05 15:53:55] [INFO] [1] Loaded slash command help
+[2023-06-05 15:53:55] [INFO] [1] Loaded slash command deploy
+[2023-06-05 15:53:55] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 15:53:56] [INFO] [1] Shard is ready
+[2023-06-05 15:53:56] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 15:53:56] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 15:54:08] [ERROR] An error occurred while executing a command.
+Error: Received one or more errors
+    at UnionValidator.handle (/home/thunder/projects/afterburner-discord-bot/node_modules/@sapphire/shapeshift/dist/index.js:1104:23)
+    at UnionValidator.parse (/home/thunder/projects/afterburner-discord-bot/node_modules/@sapphire/shapeshift/dist/index.js:212:88)
+    at EmbedBuilder.setColor (/home/thunder/projects/afterburner-discord-bot/node_modules/@discordjs/builders/dist/index.js:301:20)
+    at Object.execute (/home/thunder/projects/afterburner-discord-bot/commands/interaction/utility/embedposter.js:82:18)
+    at interactionCreate (/home/thunder/projects/afterburner-discord-bot/events/interactionCreate.js:112:27)
+    at Client.<anonymous> (/home/thunder/projects/afterburner-discord-bot/events/index.js:21:17)
+    at Client.emit (node:events:513:28)
+    at InteractionCreateAction.handle (/home/thunder/node_modules/discord.js/src/client/actions/InteractionCreate.js:81:12)
+    at Object.module.exports [as INTERACTION_CREATE] (/home/thunder/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (/home/thunder/node_modules/discord.js/src/client/websocket/WebSocketManager.js:352:31)
+[2023-06-05 15:54:08] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 15:55:39] [INFO] [1] Loading message commands...
+[2023-06-05 15:55:39] [INFO] [1] Loading slash commands...
+[2023-06-05 15:55:39] [INFO] [1] Loaded slash command help
+[2023-06-05 15:55:39] [INFO] [1] Loaded slash command deploy
+[2023-06-05 15:55:39] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 15:55:39] [INFO] [1] Shard is ready
+[2023-06-05 15:55:39] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 15:55:39] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 15:55:45] [ERROR] An error occurred while executing a command.
+Error: Received one or more errors
+    at UnionValidator.handle (/home/thunder/projects/afterburner-discord-bot/node_modules/@sapphire/shapeshift/dist/index.js:1104:23)
+    at UnionValidator.parse (/home/thunder/projects/afterburner-discord-bot/node_modules/@sapphire/shapeshift/dist/index.js:212:88)
+    at EmbedBuilder.setDescription (/home/thunder/projects/afterburner-discord-bot/node_modules/@discordjs/builders/dist/index.js:316:26)
+    at Object.execute (/home/thunder/projects/afterburner-discord-bot/commands/interaction/utility/embedposter.js:83:18)
+    at interactionCreate (/home/thunder/projects/afterburner-discord-bot/events/interactionCreate.js:112:27)
+    at Client.<anonymous> (/home/thunder/projects/afterburner-discord-bot/events/index.js:21:17)
+    at Client.emit (node:events:513:28)
+    at InteractionCreateAction.handle (/home/thunder/node_modules/discord.js/src/client/actions/InteractionCreate.js:81:12)
+    at Object.module.exports [as INTERACTION_CREATE] (/home/thunder/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (/home/thunder/node_modules/discord.js/src/client/websocket/WebSocketManager.js:352:31)
+[2023-06-05 15:55:45] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 15:56:30] [INFO] [1] Loading message commands...
+[2023-06-05 15:56:30] [INFO] [1] Loading slash commands...
+[2023-06-05 15:56:30] [INFO] [1] Loaded slash command help
+[2023-06-05 15:56:30] [INFO] [1] Loaded slash command deploy
+[2023-06-05 15:56:30] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 15:56:30] [INFO] [1] Shard is ready
+[2023-06-05 15:56:30] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 15:56:31] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 15:56:38] [ERROR] An error occurred while executing a command.
+Error: Received one or more errors
+    at UnionValidator.handle (/home/thunder/projects/afterburner-discord-bot/node_modules/@sapphire/shapeshift/dist/index.js:1104:23)
+    at UnionValidator.parse (/home/thunder/projects/afterburner-discord-bot/node_modules/@sapphire/shapeshift/dist/index.js:212:88)
+    at EmbedBuilder.setDescription (/home/thunder/projects/afterburner-discord-bot/node_modules/@discordjs/builders/dist/index.js:316:26)
+    at Object.execute (/home/thunder/projects/afterburner-discord-bot/commands/interaction/utility/embedposter.js:83:18)
+    at interactionCreate (/home/thunder/projects/afterburner-discord-bot/events/interactionCreate.js:112:27)
+    at Client.<anonymous> (/home/thunder/projects/afterburner-discord-bot/events/index.js:21:17)
+    at Client.emit (node:events:513:28)
+    at InteractionCreateAction.handle (/home/thunder/node_modules/discord.js/src/client/actions/InteractionCreate.js:81:12)
+    at Object.module.exports [as INTERACTION_CREATE] (/home/thunder/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (/home/thunder/node_modules/discord.js/src/client/websocket/WebSocketManager.js:352:31)
+[2023-06-05 15:56:38] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 15:57:05] [INFO] [1] Loading message commands...
+[2023-06-05 15:57:05] [INFO] [1] Loading slash commands...
+[2023-06-05 15:57:05] [INFO] [1] Loaded slash command help
+[2023-06-05 15:57:05] [INFO] [1] Loaded slash command deploy
+[2023-06-05 15:57:05] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 15:57:06] [INFO] [1] Shard is ready
+[2023-06-05 15:57:06] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 15:57:06] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 15:57:13] [ERROR] An error occurred while executing a command.
+Error: Received one or more errors
+    at UnionValidator.handle (/home/thunder/projects/afterburner-discord-bot/node_modules/@sapphire/shapeshift/dist/index.js:1104:23)
+    at UnionValidator.parse (/home/thunder/projects/afterburner-discord-bot/node_modules/@sapphire/shapeshift/dist/index.js:212:88)
+    at EmbedBuilder.setImage (/home/thunder/projects/afterburner-discord-bot/node_modules/@discordjs/builders/dist/index.js:340:23)
+    at Object.execute (/home/thunder/projects/afterburner-discord-bot/commands/interaction/utility/embedposter.js:104:16)
+    at interactionCreate (/home/thunder/projects/afterburner-discord-bot/events/interactionCreate.js:112:27)
+    at Client.<anonymous> (/home/thunder/projects/afterburner-discord-bot/events/index.js:21:17)
+    at Client.emit (node:events:513:28)
+    at InteractionCreateAction.handle (/home/thunder/node_modules/discord.js/src/client/actions/InteractionCreate.js:81:12)
+    at Object.module.exports [as INTERACTION_CREATE] (/home/thunder/node_modules/discord.js/src/client/websocket/handlers/INTERACTION_CREATE.js:4:36)
+    at WebSocketManager.handlePacket (/home/thunder/node_modules/discord.js/src/client/websocket/WebSocketManager.js:352:31)
+[2023-06-05 15:57:13] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 15:58:43] [INFO] [1] Loading message commands...
+[2023-06-05 15:58:43] [INFO] [1] Loading slash commands...
+[2023-06-05 15:58:43] [INFO] [1] Loaded slash command help
+[2023-06-05 15:58:43] [INFO] [1] Loaded slash command deploy
+[2023-06-05 15:58:43] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 15:58:43] [INFO] [1] Shard is ready
+[2023-06-05 15:58:43] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 15:58:44] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 15:58:53] [ERROR] An error occurred while executing a command.
+TypeError: messages.array is not a function
+    at Object.execute (/home/thunder/projects/afterburner-discord-bot/commands/interaction/utility/embedposter.js:128:31)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async interactionCreate (/home/thunder/projects/afterburner-discord-bot/events/interactionCreate.js:112:13)
+[2023-06-05 15:58:53] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 15:59:49] [INFO] [1] Loading message commands...
+[2023-06-05 15:59:49] [INFO] [1] Loading slash commands...
+[2023-06-05 15:59:49] [INFO] [1] Loaded slash command help
+[2023-06-05 15:59:49] [INFO] [1] Loaded slash command deploy
+[2023-06-05 15:59:49] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 15:59:50] [INFO] [1] Shard is ready
+[2023-06-05 15:59:50] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 15:59:50] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 15:59:54] [INFO] [1] Command embedposter by ThunderRedStar#0001 (691009964570968144) executed successfully.
+[2023-06-05 16:01:50] [INFO] [1] Loading message commands...
+[2023-06-05 16:01:50] [INFO] [1] Loading slash commands...
+[2023-06-05 16:01:50] [INFO] [1] Loaded slash command help
+[2023-06-05 16:01:50] [INFO] [1] Loaded slash command deploy
+[2023-06-05 16:01:50] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 16:01:50] [INFO] [1] Shard is ready
+[2023-06-05 16:01:50] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 16:01:50] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 16:01:56] [INFO] [1] Command embedposter by ThunderRedStar#0001 (691009964570968144) executed successfully.
+[2023-06-05 16:01:56] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:02:25] [INFO] [1] Loading message commands...
+[2023-06-05 16:02:25] [INFO] [1] Loading slash commands...
+[2023-06-05 16:02:25] [INFO] [1] Loaded slash command help
+[2023-06-05 16:02:25] [INFO] [1] Loaded slash command deploy
+[2023-06-05 16:02:25] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 16:02:25] [INFO] [1] Shard is ready
+[2023-06-05 16:02:25] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 16:02:26] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 16:02:32] [INFO] [1] Command embedposter by ThunderRedStar#0001 (691009964570968144) executed successfully.
+[2023-06-05 16:03:30] [INFO] [1] Loading message commands...
+[2023-06-05 16:03:30] [INFO] [1] Loading slash commands...
+[2023-06-05 16:03:30] [INFO] [1] Loaded slash command help
+[2023-06-05 16:03:30] [INFO] [1] Loaded slash command deploy
+[2023-06-05 16:03:30] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 16:03:31] [INFO] [1] Shard is ready
+[2023-06-05 16:03:31] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 16:03:31] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 16:03:37] [ERROR] An error occurred while executing a command.
+ReferenceError: print is not defined
+    at Object.execute (/home/thunder/projects/afterburner-discord-bot/commands/interaction/utility/embedposter.js:142:6)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async interactionCreate (/home/thunder/projects/afterburner-discord-bot/events/interactionCreate.js:112:13)
+[2023-06-05 16:03:37] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:03:57] [INFO] [1] Loading message commands...
+[2023-06-05 16:03:57] [INFO] [1] Loading slash commands...
+[2023-06-05 16:03:57] [INFO] [1] Loaded slash command help
+[2023-06-05 16:03:57] [INFO] [1] Loaded slash command deploy
+[2023-06-05 16:03:57] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 16:03:57] [INFO] [1] Shard is ready
+[2023-06-05 16:03:57] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 16:03:57] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 16:04:04] [ERROR] An error occurred while executing a command.
+ReferenceError: path is not defined
+    at Object.execute (/home/thunder/projects/afterburner-discord-bot/commands/interaction/utility/embedposter.js:144:44)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async interactionCreate (/home/thunder/projects/afterburner-discord-bot/events/interactionCreate.js:112:13)
+[2023-06-05 16:04:04] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:04:21] [INFO] [1] Loading message commands...
+[2023-06-05 16:04:21] [INFO] [1] Loading slash commands...
+[2023-06-05 16:04:21] [INFO] [1] Loaded slash command help
+[2023-06-05 16:04:21] [INFO] [1] Loaded slash command deploy
+[2023-06-05 16:04:21] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 16:04:21] [INFO] [1] Shard is ready
+[2023-06-05 16:04:21] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 16:04:21] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 16:04:30] [ERROR] An error occurred while executing a command.
+TypeError: Builders.AttachmentBuilder is not a constructor
+    at Object.execute (/home/thunder/projects/afterburner-discord-bot/commands/interaction/utility/embedposter.js:145:13)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async interactionCreate (/home/thunder/projects/afterburner-discord-bot/events/interactionCreate.js:112:13)
+[2023-06-05 16:04:30] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:05:27] [INFO] [1] Loading message commands...
+[2023-06-05 16:05:27] [INFO] [1] Loading slash commands...
+[2023-06-05 16:05:27] [INFO] [1] Loaded slash command help
+[2023-06-05 16:05:27] [INFO] [1] Loaded slash command deploy
+[2023-06-05 16:05:27] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 16:05:27] [INFO] [1] Shard is ready
+[2023-06-05 16:05:27] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 16:05:28] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 16:05:36] [ERROR] An error occurred while executing a command.
+TypeError: Cannot read properties of undefined (reading 'AttachmentBuilder')
+    at Object.execute (/home/thunder/projects/afterburner-discord-bot/commands/interaction/utility/embedposter.js:146:25)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async interactionCreate (/home/thunder/projects/afterburner-discord-bot/events/interactionCreate.js:112:13)
+[2023-06-05 16:05:36] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:06:00] [INFO] [1] Loading message commands...
+[2023-06-05 16:06:00] [INFO] [1] Loading slash commands...
+[2023-06-05 16:06:00] [INFO] [1] Loaded slash command help
+[2023-06-05 16:06:00] [INFO] [1] Loaded slash command deploy
+[2023-06-05 16:06:00] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 16:06:01] [INFO] [1] Shard is ready
+[2023-06-05 16:06:01] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 16:06:01] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 16:06:09] [ERROR] An error occurred while executing a command.
+DiscordAPIError[50035]: Invalid Form Body
+attachments[0].id[BASE_TYPE_REQUIRED]: This field is required
+    at SequentialHandler.runRequest (/home/thunder/node_modules/@discordjs/rest/dist/index.js:659:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async SequentialHandler.queueRequest (/home/thunder/node_modules/@discordjs/rest/dist/index.js:458:14)
+    at async REST.request (/home/thunder/node_modules/@discordjs/rest/dist/index.js:902:22)
+    at async TextChannel.send (/home/thunder/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:175:15)
+    at async Object.execute (/home/thunder/projects/afterburner-discord-bot/commands/interaction/utility/embedposter.js:147:3)
+    at async interactionCreate (/home/thunder/projects/afterburner-discord-bot/events/interactionCreate.js:112:13)
+[2023-06-05 16:06:09] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:07:11] [INFO] [1] Loading message commands...
+[2023-06-05 16:07:11] [INFO] [1] Loading slash commands...
+[2023-06-05 16:07:11] [INFO] [1] Loaded slash command help
+[2023-06-05 16:07:11] [INFO] [1] Loaded slash command deploy
+[2023-06-05 16:07:11] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 16:07:11] [INFO] [1] Shard is ready
+[2023-06-05 16:07:11] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 16:07:12] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 16:07:18] [ERROR] An error occurred while executing a command.
+DiscordAPIError[50035]: Invalid Form Body
+attachments[0].id[BASE_TYPE_REQUIRED]: This field is required
+    at SequentialHandler.runRequest (/home/thunder/node_modules/@discordjs/rest/dist/index.js:659:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async SequentialHandler.queueRequest (/home/thunder/node_modules/@discordjs/rest/dist/index.js:458:14)
+    at async REST.request (/home/thunder/node_modules/@discordjs/rest/dist/index.js:902:22)
+    at async TextChannel.send (/home/thunder/node_modules/discord.js/src/structures/interfaces/TextBasedChannel.js:175:15)
+    at async Object.execute (/home/thunder/projects/afterburner-discord-bot/commands/interaction/utility/embedposter.js:148:3)
+    at async interactionCreate (/home/thunder/projects/afterburner-discord-bot/events/interactionCreate.js:112:13)
+[2023-06-05 16:07:18] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:08:04] [INFO] [1] Loading message commands...
+[2023-06-05 16:08:04] [INFO] [1] Loading slash commands...
+[2023-06-05 16:08:04] [INFO] [1] Loaded slash command help
+[2023-06-05 16:08:04] [INFO] [1] Loaded slash command deploy
+[2023-06-05 16:08:04] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 16:08:05] [INFO] [1] Shard is ready
+[2023-06-05 16:08:05] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 16:08:05] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 16:08:12] [ERROR] An error occurred while executing a command.
+Error: ENOENT: no such file or directory, stat '/home/thunder/projects/afterburner-discord-bot/commands/interaction/utility/assets/afterburner-rules.png'
+[2023-06-05 16:08:12] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:09:01] [INFO] [1] Loading message commands...
+[2023-06-05 16:09:01] [INFO] [1] Loading slash commands...
+[2023-06-05 16:09:01] [INFO] [1] Loaded slash command help
+[2023-06-05 16:09:01] [INFO] [1] Loaded slash command deploy
+[2023-06-05 16:09:01] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 16:09:02] [INFO] [1] Shard is ready
+[2023-06-05 16:09:02] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 16:09:02] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 16:09:17] [INFO] [1] Command embedposter by ThunderRedStar#0001 (691009964570968144) executed successfully.
+[2023-06-05 16:10:21] [INFO] [1] Loading message commands...
+[2023-06-05 16:10:21] [INFO] [1] Loading slash commands...
+[2023-06-05 16:10:21] [INFO] [1] Loaded slash command help
+[2023-06-05 16:10:21] [INFO] [1] Loaded slash command deploy
+[2023-06-05 16:10:21] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 16:10:21] [INFO] [1] Shard is ready
+[2023-06-05 16:10:21] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 16:10:21] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 16:10:31] [ERROR] An error occurred while executing a command.
+Error: Received one or more errors
+    at ArrayValidator.handle (/home/thunder/projects/afterburner-discord-bot/node_modules/@sapphire/shapeshift/dist/index.js:473:70)
+    at ArrayValidator.parse (/home/thunder/projects/afterburner-discord-bot/node_modules/@sapphire/shapeshift/dist/index.js:212:88)
+    at EmbedBuilder.addFields (/home/thunder/projects/afterburner-discord-bot/node_modules/@discordjs/builders/dist/index.js:222:31)
+    at Object.execute (/home/thunder/projects/afterburner-discord-bot/commands/interaction/utility/embedposter.js:96:19)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async interactionCreate (/home/thunder/projects/afterburner-discord-bot/events/interactionCreate.js:112:13)
+[2023-06-05 16:10:31] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:12:34] [INFO] [1] Loading message commands...
+[2023-06-05 16:12:34] [INFO] [1] Loading slash commands...
+[2023-06-05 16:12:34] [INFO] [1] Loaded slash command help
+[2023-06-05 16:12:34] [INFO] [1] Loaded slash command deploy
+[2023-06-05 16:12:34] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 16:12:34] [INFO] [1] Shard is ready
+[2023-06-05 16:12:34] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 16:12:35] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 16:12:43] [ERROR] An error occurred while executing a command.
+TypeError: Cannot read properties of undefined (reading 'length')
+    at Object.execute (/home/thunder/projects/afterburner-discord-bot/commands/interaction/utility/embedposter.js:115:22)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async interactionCreate (/home/thunder/projects/afterburner-discord-bot/events/interactionCreate.js:112:13)
+[2023-06-05 16:12:43] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:13:27] [INFO] [1] Loading message commands...
+[2023-06-05 16:13:27] [INFO] [1] Loading slash commands...
+[2023-06-05 16:13:27] [INFO] [1] Loaded slash command help
+[2023-06-05 16:13:27] [INFO] [1] Loaded slash command deploy
+[2023-06-05 16:13:27] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 16:13:27] [INFO] [1] Shard is ready
+[2023-06-05 16:13:27] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 16:13:28] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 16:13:33] [ERROR] An error occurred while executing a command.
+TypeError: Cannot read properties of undefined (reading 'length')
+    at Object.execute (/home/thunder/projects/afterburner-discord-bot/commands/interaction/utility/embedposter.js:116:22)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async interactionCreate (/home/thunder/projects/afterburner-discord-bot/events/interactionCreate.js:112:13)
+[2023-06-05 16:13:33] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:13:59] [INFO] [1] Loading message commands...
+[2023-06-05 16:13:59] [INFO] [1] Loading slash commands...
+[2023-06-05 16:13:59] [INFO] [1] Loaded slash command help
+[2023-06-05 16:13:59] [INFO] [1] Loaded slash command deploy
+[2023-06-05 16:13:59] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 16:14:00] [INFO] [1] Shard is ready
+[2023-06-05 16:14:00] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 16:14:00] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 16:14:07] [ERROR] An error occurred while executing a command.
+TypeError: Cannot read properties of undefined (reading 'value')
+    at Object.execute (/home/thunder/projects/afterburner-discord-bot/commands/interaction/utility/embedposter.js:116:14)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async interactionCreate (/home/thunder/projects/afterburner-discord-bot/events/interactionCreate.js:112:13)
+[2023-06-05 16:14:07] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:14:26] [INFO] [1] Loading message commands...
+[2023-06-05 16:14:26] [INFO] [1] Loading slash commands...
+[2023-06-05 16:14:26] [INFO] [1] Loaded slash command help
+[2023-06-05 16:14:26] [INFO] [1] Loaded slash command deploy
+[2023-06-05 16:14:26] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 16:14:27] [INFO] [1] Shard is ready
+[2023-06-05 16:14:27] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 16:14:27] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 16:14:48] [INFO] [1] Command embedposter by ThunderRedStar#0001 (691009964570968144) executed successfully.
+[2023-06-05 16:15:18] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:16:59] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:19:33] [INFO] [1] Loading message commands...
+[2023-06-05 16:19:33] [INFO] [1] Loading slash commands...
+[2023-06-05 16:19:33] [INFO] [1] Loaded slash command help
+[2023-06-05 16:19:33] [INFO] [1] Loaded slash command deploy
+[2023-06-05 16:19:33] [INFO] [1] Loaded slash command embedposter
+[2023-06-05 16:19:33] [INFO] [1] Shard is ready
+[2023-06-05 16:19:33] [INFO] [1] Logged in as Afterburner#4747
+[2023-06-05 16:19:33] [INFO] [1] Successfully registered application commands for guild 1115090813823766600.
+[2023-06-05 16:19:43] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:19:59] [INFO] [1] Command embedposter by ThunderRedStar#0001 (691009964570968144) executed successfully.
+[2023-06-05 16:28:50] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:31:35] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:31:41] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:37:18] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:38:06] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:47:09] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:48:44] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 16:51:20] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 17:00:16] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 17:49:19] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 18:11:42] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 18:11:44] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 22:08:20] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 22:16:47] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 22:20:24] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 22:28:43] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 22:29:27] [ERROR] [1] Bot encountered an unhandled promise rejection
+[2023-06-05 22:29:54] [ERROR] [1] Bot encountered an unhandled promise rejection
