@@ -17,14 +17,36 @@
     },
     "servers": [
       {
-        "name": "BoxPvP",
+        "name": "BoxPvP (`/server boxpvp`)",
         "host": "boxpvp.afterburnermc.network",
         "port": 25565
       },
       {
-        "name": "Development Network",
+        "name": "Development Network (`afterburner.minecraft.pe`)",
         "host": "afterburner.minecraft.pe",
         "port": 25592
+      }
+    ],
+    "other": [
+      {
+        "name": "AllayRival (`play.allayrival.net`)",
+        "host": "play.allayrival.net",
+        "port": 25565
+      },
+      {
+        "name": "VoidMC (`void.mcdns.me`)",
+        "host": "void.mcdns.me",
+        "port": 25565
+      },
+      {
+        "name": "ArcadeHub (`play.arcadehub.net`)",
+        "host": "play.arcadehub.net",
+        "port": 25565
+      },
+      {
+        "name": "JumpOver (`play.jumpover.games`)",
+        "host": "play.jumpover.games",
+        "port": 25565
       }
     ]
   },
